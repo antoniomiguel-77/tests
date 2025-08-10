@@ -9,5 +9,12 @@ export default defineConfig({
             refresh: true,
         }),
         tailwindcss(),
+
     ],
+    build: {
+    manifest: true,
+    outDir: 'public/build', // Ensure this is correct
+  },
 });
+
+
