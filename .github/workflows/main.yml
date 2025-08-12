@@ -17,3 +17,4 @@ jobs:
         server: ${{secrets.TEST_HOST}}
         username: ${{secrets.TEST_USER}}
         password: ${{secrets.TEST_PW}}
+        server-dir: /htdocs/
