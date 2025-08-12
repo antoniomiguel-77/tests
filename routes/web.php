@@ -28,3 +28,5 @@ Route::controller(PostController::class)->group(function () {
     Route::get('/posts', 'index')->name('posts.index');
     Route::post('/store', 'store')->name('user.store');
 });
+
+
